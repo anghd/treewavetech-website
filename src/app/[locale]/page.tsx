@@ -1,4 +1,3 @@
-// src/app/[locale]/page.tsx
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
@@ -26,7 +25,6 @@ export default function Home() {
             }
           ].map((product, i) => (
             <div key={i} className="border rounded-xl p-6 shadow-md hover:shadow-lg transition">
-              {/* 用 div 代替 Image 组件（无外部依赖） */}
               <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-48 mb-4" />
               <h3 className="text-xl font-semibold">{product.title}</h3>
               <p className="text-gray-600 mt-2">{product.desc}</p>
