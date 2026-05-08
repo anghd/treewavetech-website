@@ -17,7 +17,7 @@ export default function LocaleLayout({
       
       <footer className="py-6 bg-gray-50 border-t">
         <div className="max-w-6xl mx-auto px-4 text-center text-gray-600">
-          © 2024 TreeWave Tech | 高品质音频设备制造商
+          © 2026 TreeWave Tech | 音频设备制造商
         </div>
       </footer>
     </div>
